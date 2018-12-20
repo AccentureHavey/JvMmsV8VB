@@ -1,0 +1,8 @@
+D:\JvMmsV8VB\JvMmsV8\DAL\bin\Debug\DAL.dll
+D:\JvMmsV8VB\JvMmsV8\DAL\bin\Debug\DAL.pdb
+D:\JvMmsV8VB\JvMmsV8\DAL\bin\Debug\DAL.xml
+D:\JvMmsV8VB\JvMmsV8\DAL\obj\Debug\DAL.Resources.resources
+D:\JvMmsV8VB\JvMmsV8\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+D:\JvMmsV8VB\JvMmsV8\DAL\obj\Debug\DAL.dll
+D:\JvMmsV8VB\JvMmsV8\DAL\obj\Debug\DAL.xml
+D:\JvMmsV8VB\JvMmsV8\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,8 @@
+D:\JvMmsV8VB\JvMmsV8\BLL\bin\Debug\BLL.dll
+D:\JvMmsV8VB\JvMmsV8\BLL\bin\Debug\BLL.pdb
+D:\JvMmsV8VB\JvMmsV8\BLL\bin\Debug\BLL.xml
+D:\JvMmsV8VB\JvMmsV8\BLL\obj\Debug\BLL.Resources.resources
+D:\JvMmsV8VB\JvMmsV8\BLL\obj\Debug\BLL.vbproj.GenerateResource.Cache
+D:\JvMmsV8VB\JvMmsV8\BLL\obj\Debug\BLL.dll
+D:\JvMmsV8VB\JvMmsV8\BLL\obj\Debug\BLL.xml
+D:\JvMmsV8VB\JvMmsV8\BLL\obj\Debug\BLL.pdb
