@@ -1,8 +1,0 @@
-D:\JvMmsV8VB\JvMmsV8\Model\bin\Debug\Model.dll
-D:\JvMmsV8VB\JvMmsV8\Model\bin\Debug\Model.pdb
-D:\JvMmsV8VB\JvMmsV8\Model\bin\Debug\Model.xml
-D:\JvMmsV8VB\JvMmsV8\Model\obj\Debug\Model.Resources.resources
-D:\JvMmsV8VB\JvMmsV8\Model\obj\Debug\Model.vbproj.GenerateResource.Cache
-D:\JvMmsV8VB\JvMmsV8\Model\obj\Debug\Model.dll
-D:\JvMmsV8VB\JvMmsV8\Model\obj\Debug\Model.xml
-D:\JvMmsV8VB\JvMmsV8\Model\obj\Debug\Model.pdb
