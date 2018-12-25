@@ -43,8 +43,19 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -62,7 +73,22 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.vb" />
+    <Compile Include="Migrations\201812250644428_2018122502.Designer.vb">
+      <DependentUpon>201812250644428_2018122502.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812250644428_2018122502.vb" />
+    <Compile Include="Models\Department.vb" />
+    <Compile Include="JvDBContext.vb" />
+    <Compile Include="Migrations\201812210712283_125.Designer.vb">
+      <DependentUpon>201812210712283_125.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812210712283_125.vb" />
+    <Compile Include="Migrations\201812250205476_20181225.Designer.vb">
+      <DependentUpon>201812250205476_20181225.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812250205476_20181225.vb" />
+    <Compile Include="Migrations\Configuration.vb" />
+    <Compile Include="Models\JvAccountModel.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -78,8 +104,22 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Models\User.vb" />
+    <Compile Include="Models\SystemLogLevel.vb" />
+    <Compile Include="Models\SystemLogEvent.vb" />
+    <Compile Include="Models\SystemLog.vb" />
+    <Compile Include="Models\SystemLogObject.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Migrations\201812210712283_125.resx">
+      <DependentUpon>201812210712283_125.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812250205476_20181225.resx">
+      <DependentUpon>201812250205476_20181225.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812250644428_2018122502.resx">
+      <DependentUpon>201812250644428_2018122502.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -88,6 +128,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -96,6 +137,9 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
